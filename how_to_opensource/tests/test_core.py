@@ -12,4 +12,4 @@ def test_add_two(shape: Union[int, Tuple[int]]) -> None:
     b = - np.ones(shape)
     results = add_two_vectors(a, b)
     expected = np.ones(shape)
-    np.testing.assert_almost_equal(results,  expected)
+    np.testing.assert_almost_equal(results, expected)
